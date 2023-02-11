@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Peeking the Emissions",
+  "description": "Calculate carbon footprint based on total data sent/received when a user visits a website",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icons/logo.png"
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "script.js"
+    ]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "128": "icons/logo.png"
+    }
+  },
+  "default_locale": "en"
+}
