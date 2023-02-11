@@ -1,0 +1,21 @@
+{
+  "name":"Peeking_the_Emissions",
+  "version": "1.2.0",
+  "description": "Calculate carbon footprint based on total data sent/received when a user visits a website",
+  "main": "script.js",
+  "directories": {
+    "extension": "extension",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "chrome-mock": "0.0.9",
+    "mocha": "^10.2.0",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "mocha test/test-script.js",
+    "coverage": "nyc mocha"
+  }
+}
