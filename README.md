@@ -11,7 +11,7 @@ every day, major websites might have an unforeseen carbon footprint per user.
 
 
 ## Features
-- A browser extension and calculate carbon footprint based on the total
+- A browser extension to calculate carbon footprint based on the total
 data sent/received when a user visits any website.
 
 - Generate and display to the user the expected carbon footprint he has caused
