@@ -1,4 +1,4 @@
-# TRINIT_594092-UY4F39W8_DEV
+# Carbon Emission Analyser
 Based on statistics, the download of one GB of data from the internet emits 11 grams of
 CO2-equivalents. An unoptimized website generally loads MBs of data on request.
 Considering that the website gets visited thousands and sometimes millions of times
